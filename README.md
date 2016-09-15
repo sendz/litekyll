@@ -4,7 +4,7 @@ litekyll is a simple and lightweight Jekyll Theme.
 
 ## Demo
 
-* Live blog at (sendz.github.io)[https://sendz.github.io/]
+* Live blog at [sendz.github.io](https://sendz.github.io/)
 
 ## Features
 
@@ -17,8 +17,8 @@ litekyll is a simple and lightweight Jekyll Theme.
 
 ### CSS Framework
 
-* (UIKit)[http://getuikit.com/]
+* [UIKit](http://getuikit.com/)
 
 ### JS Framework
 
-* (JQuery)[http://jquery.com/]
+* [JQuery](http://jquery.com/)
