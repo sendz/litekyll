@@ -2,6 +2,10 @@
 
 litekyll is a simple and lightweight Jekyll Theme.
 
+## Demo
+
+* Live blog at (sendz.github.io)[https://sendz.github.io/]
+
 ## Features
 
 * Disqus Comments included
