@@ -12,6 +12,13 @@ litekyll is a simple and lightweight Jekyll Theme.
 * Mobile Responsive
 * Off-Canvas Mobile Navigation
 * Featured Image for first image appear on post
+* Pagination
+
+## Installation
+
+* Copy and replace all files to your jekyll folder
+* Rename `_config.xml.example` to `_config.xml` and adapt to your configuration
+* Run `jekyll serve` to test it locally or push to your server
 
 ### How to activate Disqus Comments
 
