@@ -1,0 +1,40 @@
+<footer class="uk-page-footer">
+
+  <div class="uk-container uk-container-center">
+
+    <div class="uk-grid">
+      <div class="uk-width-large-1-2 uk-width-small-1-1 uk-footer-content">
+        <h5>{{ site.title }}</h5>
+        <p>{{ site.description }}</p>
+      </div>
+      <div class="uk-width-large-1-2 uk-width-small-1-1 uk-footer-content">
+        <h5>Links</h5>
+        <ul class="no-style">
+          <li>
+            <a href="mailto:{{ site.email }}"><i class="uk-icon-envelope"></i> {{ site.email }}</a>
+          </li>
+            {% if site.github_username %}
+          <li>
+            <a href="http://github.com/{{ site.github_username }}"><i class="uk-icon-github" aria-hidden="true"></i> {{ site.github_username }}</a>
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            <a href="http://twitter.com/{{ site.twitter_username }}"><i class="uk-icon-twitter"></i> {{ site.twitter_username }}</a>
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  <div class="uk-footer-copyright">
+    <div class="uk-container uk-container-center">
+      <span class="uk-float-left">&copy; 2016 {{ site.title }}</span>
+      <a class="uk-float-right" href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss"></i> Subscribe</a>
+    </div>
+
+  </div>
+
+</footer>

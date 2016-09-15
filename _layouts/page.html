@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="uk-container uk-container-center">
+    <article class="post">
+
+        <header class="post-header">
+            <h1 class="post-title">{{ page.title }}</h1>
+        </header>
+
+        <div class="post-content">
+            {{ content }}
+        </div>
+
+        {% if page.disqus_shortname and page.comments %}
+            {% include comment.html %}
+        {% endif %}
+
+    </article>
+</div>
