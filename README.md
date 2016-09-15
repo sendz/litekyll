@@ -16,7 +16,7 @@ litekyll is a simple and lightweight Jekyll Theme.
 ### How to activate Disqus Comments
 
 * Add `disqus_shortname: "shortname"` to your `_config.yml` file
-* Add `comments: true` to your individual post or page `Front Matter` to enable it, or `comments: false` to disable disqus comment.
+* Add `comments: true` to your individual post or page **Front Matter** to enable it, or `comments: false` to disable disqus comment.
 
 Disqus comment are `enabled` **by default** under `post` type and `disabled` **by default** under `page` type.
 
