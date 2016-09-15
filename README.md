@@ -13,6 +13,7 @@ litekyll is a simple and lightweight Jekyll Theme.
 * Off-Canvas Mobile Navigation
 * Featured Image for first image appear on post
 * Pagination
+* Emoji support by jemoji, check [Emoji Cheatsheet](http://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
 ## Installation
 
